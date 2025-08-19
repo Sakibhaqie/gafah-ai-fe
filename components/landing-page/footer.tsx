@@ -60,69 +60,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* AI Solutions */}
-          <div>
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-4">AI Solutions</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Predictive Analytics
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Natural Language Processing
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Computer Vision
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Machine Learning
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Intelligent Automation
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Industries */}
-          <div>
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Industries</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Healthcare
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Finance
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Retail
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Manufacturing
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-400 hover:text-[#7A7FEE] transition-colors">
-                  Technology
-                </Link>
-              </li>
-            </ul>
-          </div>
+         
         </div>
 
         {/* Bottom Section */}

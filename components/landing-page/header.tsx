@@ -86,14 +86,14 @@ export default function Header() {
               {/* Desktop Navigation */}
               <nav className="hidden md:block">
                 <ul className="flex space-x-6">
-                  <li className="hidden md:block">
+                  {/* <li className="hidden md:block">
                     <NavDropdown
                       trigger="AI Solutions"
                       items={resourcesDropdownData}
                       columns={2}
                       className={pathname.startsWith("/resources") ? "text-[#7A7FEE] dark:text-[#7A7FEE]" : ""}
                     />
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/portfolio"
