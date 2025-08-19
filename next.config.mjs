@@ -11,6 +11,9 @@ const nextConfig = {
   },
   basePath: "/gafah",
   assetPrefix: "/gafah/",
+  experimental: {
+    instrumentationHook: false,
+  },
   // Let Nginx handle the routing instead
 };
 
