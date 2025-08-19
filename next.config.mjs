@@ -9,7 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // REMOVED: basePath and assetPrefix
+  basePath: "/gafah",
+  assetPrefix: "/gafah/",
   // Let Nginx handle the routing instead
 };
 
