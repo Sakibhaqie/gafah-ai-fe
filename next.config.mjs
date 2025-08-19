@@ -1,4 +1,3 @@
-// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -10,10 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-
-  // 👇 Add these for running under /gafah
-  basePath: '/gafah',
-  assetPrefix: '/gafah/',
+  // REMOVED: basePath and assetPrefix
+  // Let Nginx handle the routing instead
 };
 
 export default nextConfig;
